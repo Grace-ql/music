@@ -429,18 +429,20 @@ div.xianshi {
   margin: auto; }
 
 .float {
-  width: 600px;
+  width: 960px;
   height: 400px;
   position: absolute;
-  left: 60px;
+  left: 40px;
   top: 200px;
+  bottom: 100px;
+  right: 0;
+  margin: auto;
   transition: transform .8s ease;
   transform: rotate(180deg); }
   .float div {
     width: 20px;
     margin-right: 10px;
-    background: #4c2043;
-    background: rgba(76, 32, 67, 0.8);
+    background: rgba(179, 155, 180, 0.1);
     float: left; }
 
 audio {
